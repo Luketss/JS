@@ -9,3 +9,14 @@ let n1 = 42,
     n4 = 0.0000052;
 
 console.log(e);
+
+
+let price = 5.00,
+    price = 3.00;
+    
+console.log(price + price2);            Result 8
+
+let price = 5.00,
+    price = "3.00";
+    
+console.log(price + price2);            Result 53.00
