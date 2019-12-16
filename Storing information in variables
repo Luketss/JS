@@ -1,0 +1,3 @@
+let nomeProduto = "Martelo", idProduto = "H123"; // Criação com a função let nomedavariavel = "valor".
+
+console.log(nomeProduto, idProduto);  // escrever no console.
