@@ -1,0 +1,11 @@
+let a = "Hello World",
+    b = 'hello world',
+    c = "Don't Speak",
+    d = 'Welcome to Blackjack',
+    e = 'We\'re not home';
+let n1 = 42,
+    n2 = 0.42,
+    n3 = 5200000,
+    n4 = 0.0000052;
+
+console.log(e);
