@@ -1,0 +1,8 @@
+let valor = "melancia";
+let numero = 99;
+console.log( typeof(valor) );
+console.log( typeof(numero)  );
+
+Resultado:
+string
+number
