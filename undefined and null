@@ -1,0 +1,7 @@
+let calculateSalesTax; //undefined
+
+
+let variavelNull = null;
+
+console.log(calculateSalesTax, typeof( calculateSalesTax  ));
+console.log(variavelNull);
