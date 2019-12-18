@@ -1,0 +1,11 @@
+let person = {
+  nome: "Jonh",
+  idade: 32,
+  meioHorario: false
+};
+
+console.log(person.nome); // Jonh
+
+console.log(person.idade); //32
+
+console.log(person.meioHorario); // false
