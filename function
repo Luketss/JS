@@ -3,3 +3,12 @@ function showMenssage(){
 }
 
 showMenssage();
+
+
+function showMenssage(message){ //parametro
+  console.log(message);
+}
+
+showMenssage('Lucas');
+
+showMenssage('Segundo Lucas');
