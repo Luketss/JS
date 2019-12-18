@@ -1,0 +1,13 @@
+let valores = [100, 50, 25, 5, 1];
+
+valores.pop();
+
+console.log( valores ); 
+
+/*
+The pop() method removes the last element of an array, and returns that element.
+
+Note: This method changes the length of an array.
+
+Tip: To remove the first element of an array, use the shift() method.
+*/
