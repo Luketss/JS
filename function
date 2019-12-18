@@ -1,0 +1,5 @@
+function showMenssage(){
+  console.log("Alou");
+}
+
+showMenssage();
