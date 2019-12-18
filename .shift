@@ -2,7 +2,7 @@ let valores = [100, 50, 25, 5, 1];
 
 let resultado = valores.shift();
 
-console.log( resultado ); 
+console.log( resultado, valores ); 
 
 /*
 The shift() method removes the first item of an array.
