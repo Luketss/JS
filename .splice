@@ -1,0 +1,11 @@
+let valores = [100, 50, 25, 5, 1];
+
+valores.splice(0,1);
+
+console.log( valores ); 
+
+/*
+The splice() method adds/removes items to/from an array, and returns the removed item(s).
+
+Note: This method changes the original array.
+*/
