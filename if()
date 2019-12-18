@@ -1,0 +1,36 @@
+if (5 === 5) {
+  console.log('Yes');
+}
+
+if ( 5 > 10) {
+  console.log('No');
+}
+
+if (5 >= 5){
+  console.log('Yes');
+}
+
+/*
+The triple equal sign is the one you’re probably familiar with. It tests for strict equality between two values. Both the type and the value you’re comparing have to be exactly the same.
+
+3 === 3
+// true (Both numbers, equal values)
+'test' === 'test'
+// true (Both Strings, equal values)
+false === false
+// true (Both Booleans, equal values)
+
+The double equals tests for loose equality and preforms type coercion. This means we compare two values after converting them to a common type.
+
+3 === '3'
+// false (Number compared to String)
+'hello' === 'goodbye'
+// false (Different Strings)
+false === 0
+// false (Different type: Boolean vs Number)
+
+3 === '3'
+// false (Number compared to String)
+3 == '3'
+// true
+*/
