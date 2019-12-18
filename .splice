@@ -9,3 +9,13 @@ The splice() method adds/removes items to/from an array, and returns the removed
 
 Note: This method changes the original array.
 */
+
+
+
+let valores = [100, 50, 25, 5, 1];
+
+valores.splice(0,3, 11, 22, 33);
+
+console.log( valores ); 
+
+// result (5)[11, 22, 33, 5, 1]
