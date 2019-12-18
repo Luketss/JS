@@ -1,0 +1,14 @@
+
+function changePerson(person){
+  person.nome = "Clubs";
+}
+
+let person = {
+  nome: "Jonh",
+  idade: 32,
+  meioHorario: false
+};
+
+changePerson(person);
+
+console.log(person.nome);
