@@ -1,0 +1,17 @@
+let valores = [];
+
+valores.push(23);
+valores.push(33);
+valores.push(-100);
+
+console.log( valores.length ); 
+
+/*
+The push() method adds new items to the end of an array, and returns the new length.
+
+Note: The new item(s) will be added at the end of the array.
+
+Note: This method changes the length of the array.
+
+Tip: To add items at the beginning of an array, use the unshift() method.
+*/
