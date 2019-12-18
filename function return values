@@ -1,0 +1,6 @@
+function somaTres(valor){
+  let soma = valor + valor + valor;
+  return soma;
+}
+
+console.log(somaTres(3));
