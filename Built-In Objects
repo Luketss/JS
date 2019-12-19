@@ -1,0 +1,19 @@
+let resultado = Math.random() * 52;
+
+resultado = Math.trunc( resultado );
+
+console.log( resultado );
+
+let data = new Date().toDateString();
+
+console.log( data );
+
+let texto = "Olá";
+
+texto = texto.toUpperCase();
+
+console.log( texto );
+
+let numero = 2 / 2;
+
+console.log(Number.isNaN(numero) );
