@@ -1,0 +1,46 @@
+//
+//Blackjack game
+//      Silluzio
+//
+
+let suits = ['Copas', 'Espadas', 'Paus', 'Ouros'];
+
+let valores = ['As', 'Rei', 'Dama', 'Valete', 'Dez', 'Nove', 'Oito', 'Sete', 'Seis', 'Cinco',
+                'Quatro', 'Tres', 'Dois'];
+
+let deck = createDeck();
+
+function createDeck(){
+ let deck = [];
+
+  for( let suitsId = 0; suitsId < suits.length; suitsId++  ){
+    
+    for(let valorId = 0; valorId < valores.length; valorId++){
+      let card = {
+        suits: suits[suitsId],
+        valores: valores[valorId]
+      };
+      deck.push( card );
+      
+    }
+    
+    }
+  return deck;
+}
+
+function getCardString(card){
+  return card.valores + ' of ' + card.suits;
+  
+}
+
+function getNextCard(){
+  return deck.shift();
+}
+
+let playerCards = [ getNextCard(), getNextCard() ];
+    
+console.log("Welcome to Blackjack!");
+
+console.log("You are dealt: ");
+console.log("  " +  getCardString(playerCards[0]) );
+console.log("  " +  getCardString(playerCards[1]) );
